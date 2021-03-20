@@ -35,6 +35,11 @@ namespace GitExercise
                 case "m":
                     OptionsManager.Multiply(a, b);
                     break;
+                case "dr":
+                    {
+                        OptionsManager.DivideReminder(a, b);
+                        break;
+                    }
             }
 
             Console.WriteLine("Pres any key to close the app...");
