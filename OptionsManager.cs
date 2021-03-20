@@ -8,7 +8,8 @@ namespace GitExercise
             "a - Add",
             "s - Subtract",
             "m - Multiply",
-            "dr - Divide Reminder"
+            "dr - Divide Reminder",
+            "ex - Exit"
         };
 
         public static void Add(double a, double b)
